@@ -59,7 +59,7 @@ class JkRS485Sniffer : public uart::UARTDevice, public output::TalkPin, public C
     last_message_received_acting_as_master=0;
     last_network_scan=0;
 
-    act_as_master=true; //false
+    act_as_master=false; //false
 
     pooling_index.node_address=0x0f;
     pooling_index.frame_type=2;
